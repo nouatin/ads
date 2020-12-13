@@ -1,0 +1,24 @@
+@import '../base/setting';
+.menu{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .cover{
+        position: relative;
+        color: white;
+        font-size: $l-size;
+        background-image: url("/images/head.png");
+        padding: 25px;
+        span{
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 77px;
+            left: calc(50% - 20px);
+            border-top: 12px solid #575b5e;
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import './setting';
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+    font-size: $bs-size;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
